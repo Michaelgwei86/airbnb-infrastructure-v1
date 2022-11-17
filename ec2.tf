@@ -8,7 +8,7 @@ resource "aws_instance" "web" {
        http_tokens   = "required"
   }
     
-    oot_block_device {
+    root_block_device {
         encrypted     = true
     }
     
